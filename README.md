@@ -1,6 +1,5 @@
 ## Hands-on intro to language models for behavioral research
 ### A workshop by Zak Hussain and Dirk Wulff
-<br>
 
 ### Location & Time
 <b>Venue</b>: Wildt'sche Haus<br> 
