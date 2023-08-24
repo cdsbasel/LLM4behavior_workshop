@@ -6,7 +6,7 @@
 <b>Time</b>: September 20th, between 1:00 PM - 6:30 PM
 
 ### Schedule
-1:00 PM - 1:30 PM: Welcome coffee
+1:00 PM - 1:30 PM: Welcome coffee<br>
 1:30 AM - 2:30 AM: Intro to large language models<br>
 2:30 AM - 2:45 AM: Break<br>
 2:45 AM - 3:15 AM: Intro to Huggingface<br>
