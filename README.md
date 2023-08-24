@@ -1,28 +1,27 @@
-## Large language models in jugdment and decision making research
-### A workshop by Zak Hussain, Sudeep Bhatia, and Dirk Wulff
+## Hands-on intro to language models for behavioral research
+### A workshop by Zak Hussain and Dirk Wulff
 <br>
 
 ### Location & Time
-<b>Meeting room</b>: LC.2.400 Club lounge (see [google maps](https://goo.gl/maps/9NQky6m7Dx6pUQ5V6))<br> 
-<b>Venue</b>: Vienna University of Economics and Business (Wirtschaftsuniversität Wien, WU)<br> 
-<b>Address</b>: Welthandelsplatz 1, 1020 Vienna |Building: Library and Learning Center (LC)<br> 
-<b>Time</b>: August 20th, between 9:45 AM - 3:00 PM
+<b>Venue</b>: Wildt'sche Haus<br> 
+<b>Time</b>: September 20th, between 1:00 PM - 6:30 PM
 
 ### Schedule
-9:45 AM - 10:15 AM: [Intro to large language models](LLM4JDM_Intro.pdf)<br>
-10:15 AM - 10:45 AM: Intro to Huggingface<br>
-10:45 AM - 11:15 AM: Break<br>
-11:15 AM - 12:00 PM: Exercise 1 - Predicting health perception<br>
-12:00 PM - 1:00 PM: Lunch<br>
-1:00 PM - 2:00 PM: Exercise 2 - Predicting personality structure<br>
-2:00 PM - 2:30 PM: Exercise 3 - Predicting cognitive reflection<br>
-2:30 PM - 3:00 PM: Discussion<br>
+1:00 PM - 1:30 PM: Welcome coffee
+1:30 AM - 2:30 AM: Intro to large language models<br>
+2:30 AM - 2:45 AM: Break<br>
+2:45 AM - 3:15 AM: Intro to Huggingface<br>
+3:15 AM - 4:00 PM: Exercise 1 - Predicting health perception<br>
+4:00 PM - 4:30 PM: Break<br>
+4:30 PM - 5:15 PM: Exercise 2 - Predicting personality structure<br>
+5:15 PM - 6:00 PM: Exercise 3 - Predicting cognitive reflection<br>
+6:00 PM - 6:30 PM: Discussion<br>
 
 ### Resources
 [Hugging face documentation](https://huggingface.co/docs)<br>
 [Hugging face book](https://transformersbook.com/)
 
-### Environment Setup
+### Installation instruction
 There are two options for setting up your Python environment: (i) Google Colab (cloud-based), (ii) Locally. For the
 purposes of this workshop, we recommend using Golab due to the ease of setup and the availability of GPUs. However, if
 you would like to use your own machine, we also provide instructions for setting up your environment locally.
@@ -33,11 +32,7 @@ you would like to use your own machine, we also provide instructions for setting
 3. In the top-left, click New > More > Colaboratory. If you do not see Colaboratory, you may need to click "Connect more apps", 
 search for 'Colaboratory', and install it. Then click New > More > Colaboratory.
 
-************
-Please only do the following on the day of the workshop
-***********
-
-5. Run the following code snipped in the first cell (```shift + enter```) of your notebook to mount your Google Drive to the Colab environment.
+4. Run the following code snipped in the first cell (```shift + enter```) of your notebook to mount your Google Drive to the Colab environment.
 A pop-up will ask you to connect, click through the steps to connect your Google Drive to Colab (you will have to do this
 every time you open a new notebook).
 ```
@@ -83,10 +78,6 @@ pip3 install --pre torch torchvision torchaudio --index-url https://download.pyt
 ```
 If you are using Windows or Linux, please follow the instructions at https://pytorch.org/get-started/locally/ to install
 the appropriate version of PyTorch for your system.
-
-************
-Please only do the following on the day of the workshop
-***********
 
 6. Download the GitHub repository from https://github.com/dwulff/LLM4JDM and unzip it.
 7. Navigate to the folder "LLM4JDM" in your terminal.
