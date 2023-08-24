@@ -45,7 +45,7 @@ drive.mount("/content/drive")
 ```
 6. Go back to your Google Drive and navigate to the folder "LLM4JDM". You should see the directories ex1, ex2, and ex3 
 containing the relevant notebooks (.ipynb files) and data (it may take  a couple of minutes for the files to appear).
-7. Open the notebook for exercise 1 (vaccine.ipynb)
+7. Open the notebook for exercise 1 (health.ipynb)
 8. In the top-menu bar, click Runtime > Change runtime type > Hardware accelerator > T4 GPU
 9. Run the first cell of the notebook to install the required packages. This may take a few minutes and ask for you to
 give permission to access your Google Drive. 
