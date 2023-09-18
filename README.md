@@ -41,9 +41,9 @@ drive.mount("/content/drive")
 5. Clone the GitHub repository to your Google Drive by running the following code snippet in the second cell of your notebook:
 ```
 %cd /content/drive/MyDrive
-!git clone https://github.com/dwulff/LLM4JDM.git
+!git clone https://github.com/cdsbasel/LLM4behavior_workshop.git
 ```
-6. Go back to your Google Drive and navigate to the folder "LLM4JDM". You should see the directories ex1, ex2, and ex3 
+6. Go back to your Google Drive and navigate to the folder "LLM4behavior_workshop". You should see the directories ex1, ex2, and ex3 
 containing the relevant notebooks (.ipynb files) and data (it may take  a couple of minutes for the files to appear).
 7. Open the notebook for exercise 1 (health.ipynb)
 8. In the top-menu bar, click Runtime > Change runtime type > Hardware accelerator > T4 GPU
@@ -55,12 +55,12 @@ You are now ready to start the exercises!
 1. Install miniconda  (https://docs.conda.io/en/latest/miniconda.html)
 2. Create a new conda environment by running the following command in your terminal:
 ```
-conda create --name LLM4JDM python=3.8
+conda create --name LLM4behavior_workshop python=3.8
 ```
 The terminal will ask you to confirm the installation. Type "y" and press enter (do the same for any subsequent steps).
 3. Activate the environment by running the following command in your terminal:
 ```
-conda activate LLM4JDM
+conda activate LLM4behavior_workshop
 ```
 4. Install the required packages by running the following commands in your terminal:
 ```
@@ -78,8 +78,8 @@ pip3 install --pre torch torchvision torchaudio --index-url https://download.pyt
 If you are using Windows or Linux, please follow the instructions at https://pytorch.org/get-started/locally/ to install
 the appropriate version of PyTorch for your system.
 
-6. Download the GitHub repository from https://github.com/dwulff/LLM4JDM and unzip it.
-7. Navigate to the folder "LLM4JDM" in your terminal.
+6. Download the GitHub repository from https://github.com/cdsbasel/LLM4behavior_workshop.git and unzip it.
+7. Navigate to the folder "LLM4behavior_workshop" in your terminal.
 8. Run the following command in your terminal to start the Jupyter notebook server:
 ```
 jupyter notebook
